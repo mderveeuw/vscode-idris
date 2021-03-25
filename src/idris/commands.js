@@ -402,7 +402,7 @@ let startup = (uri) => {
     uri = path.relative(path.resolve(innerCompilerOptions.src), path.resolve(uri))
   }
   uri = uri.replace(/\\/g, "/")
-  term.sendText(`:l ${uri}`)
+  term.sendText(`:l "${uri}"`)
   term.show()
 }
 
