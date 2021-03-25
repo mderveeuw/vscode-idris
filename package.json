@@ -89,7 +89,7 @@
     ],
     "configuration": {
       "type": "object",
-      "title": "Settings for Idris project",
+      "title": "Idris",
       "properties": {
         "idris.executablePath": {
           "type": "string",
